@@ -7,7 +7,7 @@ class Score {
 
   Map<String, dynamic> toMap() {
     return {
-      'id': id,
+ //     'id': id,
       'scoreDate': scoreDate,
       'userScore': userScore,
     };

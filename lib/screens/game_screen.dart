@@ -158,6 +158,7 @@ class _GameScreenState extends State<GameScreen> {
                   child: const Icon(
                     MdiIcons.home,
                     size: 30.0,
+                    color: Colors.white,
                   ),
 
                   color: kDialogButtonColor,
@@ -169,7 +170,8 @@ class _GameScreenState extends State<GameScreen> {
                     newGame();
                     Navigator.pop(context);
                   },
-                  child: const Icon(MdiIcons.refresh, size: 30.0),
+                  child: const Icon(MdiIcons.refresh, size: 30.0,
+                  color: Colors.white,),
 
                   color: kDialogButtonColor,
 
